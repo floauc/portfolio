@@ -1,0 +1,399 @@
+/* Schriftart von Google Fonts importieren
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap"); */
+
+/* inter-tight-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/inter-tight-v7-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/inter-tight-v7-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-tight-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/inter-tight-v7-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v7-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v7-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-tight-v7-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/inter-tight-v7-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-tight-v7-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/inter-tight-v7-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/inter-tight-v7-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/inter-tight-v7-latin-800italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-tight-v7-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/inter-tight-v7-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+/* Optional: Schriftart für spezifische Bootstrap-Komponenten überschreiben */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: "Inter Tight", sans-serif !important;
+}
+.display-1 {
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h4,
+.card-text {
+  color: rgb(92, 92, 106);
+}
+
+.btn-lg {
+  font-size: 1rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+}
+
+.p-section {
+  margin-top: 144px;
+}
+
+.card {
+  border: 0px;
+}
+
+/* footer */
+footer a {
+  color: #007bff;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #000;
+}
+
+a.nav-link.active {
+  color: #7b2eff !important;
+}
+
+a {
+  text-decoration: none !important;
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  text-decoration: none !important;
+  opacity: 0.8;
+  transition: ease-in-out 0.2s;
+}
+
+.btn-outline-primary {
+  border-color: #060608;
+  color: #060608;
+  opacity: 1;
+}
+
+.btn-outline-primary:hover {
+  border-color: #060608;
+  background-color: #060608;
+  color: #fff;
+  opacity: 1;
+}
+
+.btn-outline-primary:active {
+  border-color: transparent !important;
+  background-color: rgba(6, 6, 8, 0.7) !important;
+  color: #fff !important;
+  opacity: 1;
+}
+
+.bg-image {
+  width: 100%; /* Füllt die Spalte */
+  max-height: 550px; /* Maximalhöhe für das Hintergrundbild */
+  aspect-ratio: 1 / 1; /* Optional: Verhältnis für eine konsistente Größe */
+  background-size: cover; /* Hintergrundbild skalieren, um den Bereich zu füllen */
+  background-position: center; /* Hintergrundbild zentrieren */
+  background-repeat: no-repeat; /* Wiederholung des Bildes verhindern */
+}
+
+p,
+li {
+  color: rgb(92, 92, 106);
+}
+
+h6 {
+  font-weight: 400;
+  color: #7e7e97;
+}
+
+.color-purple {
+  color: #7b2eff;
+}
+
+/* Icon Carousel */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel-container:before,
+.carousel-container:after {
+  position: absolute;
+  top: 0;
+  width: 72px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.carousel-container:before {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(248, 249, 250));
+  left: 0;
+}
+
+.carousel-container:after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(248, 249, 250));
+  right: 0;
+}
+
+.carousel-container:hover .icon-carousel {
+  animation-play-state: paused;
+}
+
+.icon-carousel {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+
+.icon-carousel img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+.breadcrumb {
+  font-size: 1.15rem;
+}
+
+.header-img {
+  width: 100%;
+  max-height: 750px;
+}
+
+.footer-image {
+  width: 100%; /* Füllt die Spalte */
+  max-height: 750px; /* Maximalhöhe für das Hintergrundbild */
+  aspect-ratio: 1 / 1; /* Optional: Verhältnis für eine konsistente Größe */
+  background-size: cover; /* Hintergrundbild skalieren, um den Bereich zu füllen */
+  background-position: center; /* Hintergrundbild zentrieren */
+  background-repeat: no-repeat; /* Wiederholung des Bildes verhindern */
+}
+
+.sidebyside-img {
+  width: 100%;
+  max-height: 550px;
+}
+
+.mt72 {
+  margin: 72px 0px 0px 0px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #7b2eff;
+  background-color: rgba(123, 46, 255, 0.075);
+}
+
+/* Menü zentriert
+.navbar-nav .dropdown-menu {
+  left: 50%;
+  transform: translateX(-50%);
+}
+*/
+
+/* Button Hover-State */
+.card a.btn {
+  z-index: 2;
+  transition: ease-in-out 0.2s, color 0.2s, transform 0.2s;
+}
+.card:hover a.btn {
+  background-color: #060608;
+  color: white;
+}
+
+.gradient-placeholder {
+  background-color: #dfe1e5;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.7'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}

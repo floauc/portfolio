@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <link href="css/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg py-5 mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Florian Auchter</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto py-4 py-lg-0 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-lg-3" aria-current="page" href="index.html">Start</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3" href="ueber-mich.html">Über mich</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-lg-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Projekte </a>
+              <ul class="dropdown-menu animate slideIn px-2 py-3 border">
+                <li><a class="dropdown-item rounded-1 mb-1" href="visual-scripting-modul.html">Visual Scripting Modul</a></li>
+                <li><a class="dropdown-item rounded-1 mb-1" href="famtalk.html">FamTalk</a></li>
+                <li><a class="dropdown-item rounded-1" href="material-modul.html">Material Modul (Redesign)</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3" aria-current="page" href="mailto:florian.auchter98@googlemail.com">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pt-0 pt-lg-5 mb-auto" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-cubic">
+      <h1>Impressum</h1>
+      <p>
+        Florian Auchter<br />
+        Waldstraße, 67.<br />
+        73432 Aalen
+      </p>
+      <h2 class="mt-5">Kontakt</h2>
+      <p>E-Mail: florian.auchter98@googlemail.com</p>
+      <h2 class="mt-5">Redaktionell verantwortlich</h2>
+      <p>Florian Auchter</p>
+      <p class="mt-5">
+        Quelle:<br />
+        <a href="https://www.e-recht24.de/" target="_blank">e-recht24.de</a>
+      </p>
+    </div>
+
+    <footer class="mt-auto py-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p class="mb-0">&copy; Florian Auchter 2025</p>
+        <a class="color-purple" href="impressum.html" class="text-decoration-none">Impressum</a>
+      </div>
+    </footer>
+
+    <script src="script/aos.js"></script>
+    <script>
+      AOS.init({
+        // ... your other initialisation options here ...
+        once: true,
+      });
+    </script>
+  </body>
+</html>
